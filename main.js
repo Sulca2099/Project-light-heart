@@ -14,7 +14,7 @@ class test{
     }
     test_intergrate(){
         //alert('loaded');
-        if(this.cnt<4){
+        if(this.cnt<5){
             document.getElementById('workwithme').innerHTML=this.questions[this.cnt];
             let f=0;
             for(let questioning of this.answers[this.cnt]){
