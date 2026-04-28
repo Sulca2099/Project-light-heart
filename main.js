@@ -16,7 +16,7 @@ class test{
         alert('loaded');
         document.getElementById('workwithme').innerHTML=this.questions[this.cnt];
         let f=0;
-        for(let questioning of this.answers[cnt]){
+        for(let questioning of this.answers[this.cnt]){
             document.getElementById('workwithme').innerHTML+=`<button onclick='urtest.answer(${f})'>${questioning}</button>`;
             f+=1;
         }
