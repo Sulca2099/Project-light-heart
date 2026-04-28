@@ -20,10 +20,10 @@ class test{
             document.getElementById('workwithme').innerHTML+=`<button onclick='urtest.answer(${f})'>${questioning}</button>`;
             f+=1;
         }
-        cnt+=1;
+        this.cnt+=1;
     }
     answer(count){
-        if(cnt>4){
+        if(this.cnt>4){
             let addedvector=this.score[this.cnt][count];
             let cn=0;
             for(add of addedvector){
