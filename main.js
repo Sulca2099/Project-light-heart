@@ -14,7 +14,7 @@ class test{
     }
     test_intergrate(){
         alert('loaded');
-        document.getElementById('workwitme').innerHTML=this.questions[this.cnt];
+        document.getElementById('workwithme').innerHTML=this.questions[this.cnt];
         let f=0;
         for(let questioning of this.questions){
             document.getElementById('workwithme').innerHTML+=`<button onclick='urtest.answer(${f})'>${questioning}</button>`;
