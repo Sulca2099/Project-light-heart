@@ -36,3 +36,4 @@ class test{
     }
 }
 let urtest=new test();
+urtest.test_intergrate();
