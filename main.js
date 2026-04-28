@@ -13,14 +13,16 @@ class test{
         this.user_score=[0,0,0];
     }
     test_intergrate(){
-        alert('loaded');
-        document.getElementById('workwithme').innerHTML=this.questions[this.cnt];
-        let f=0;
-        for(let questioning of this.answers[this.cnt]){
-            document.getElementById('workwithme').innerHTML+=`<button onclick='urtest.answer(${f})'>${questioning}</button>`;
-            f+=1;
+        //alert('loaded');
+        if(this.cnt<4){
+            document.getElementById('workwithme').innerHTML=this.questions[this.cnt];
+            let f=0;
+            for(let questioning of this.answers[this.cnt]){
+                document.getElementById('workwithme').innerHTML+=`<button onclick='urtest.answer(${f})'>${questioning}</button>`;
+                f+=1;
+            }
+            this.cnt+=1;
         }
-        this.cnt+=1;
     }
     answer(count){
         if(this.cnt>4){
