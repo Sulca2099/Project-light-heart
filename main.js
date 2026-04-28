@@ -13,7 +13,7 @@ class test{
         this.user_score=[0,0,0];
     }
     test_intergrate(){
-
+        alert('loaded');
         document.getElementById('workwitme').innerHTML=this.questions[this.cnt];
         let f=0;
         for(let questioning of this.questions){
