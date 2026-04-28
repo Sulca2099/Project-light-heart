@@ -35,3 +35,4 @@ class test{
         }
     }
 }
+let urtest=new test();
