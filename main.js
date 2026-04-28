@@ -4,7 +4,7 @@ class test{
     answers;
     score;
     cnt;
-    user_score
+    user_score;
     constructor(){
         this.questions=["What is your favorite movie","Who is your favorite popstar","what is your favorite city","what is you favorite country","who is your favorite person"];
         this.answers=[["crazy rich asians","titanic","51 first dates"],["taylor swift","beyonce","EJ"],["bejing","newyork","san fransico"],["America","china","mexico"],["Jhon f kenedy","tim cook","That person who was mayor of huoston"]];
