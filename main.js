@@ -33,7 +33,7 @@ class test{
                 cn+=1;
             }
         } else{
-            let favorite = Math.max(this.user_score);
+            let favorite = Math.max(...this.user_score);
             document.getElementById('workwithme').innerHTML=["chinese food","european food","tropial food"][this.user_score.indexOf(favorite)];
         }
     }
