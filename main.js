@@ -28,7 +28,7 @@ class test{
         if(this.cnt<4){
             let addedvector=this.score[this.cnt][count];
             let cn=0;
-            for(add of addedvector){
+            for(let add of addedvector){
                 this.user_score[cn]+=add;
                 cn+=1;
             }
