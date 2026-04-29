@@ -34,7 +34,7 @@ class test{
             }
         } else{
             let favorite = Math.max(this.user_score);
-            document.getElementById('workwithme').innerHTML=["chinese food","european food","tropial food"][this.user_score.IndexOf(favorite)];
+            document.getElementById('workwithme').innerHTML=["chinese food","european food","tropial food"][this.user_score.indexOf(favorite)];
         }
     }
 }
