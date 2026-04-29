@@ -25,7 +25,7 @@ class test{
         }
     }
     answer(count){
-        if(this.cnt>4){
+        if(this.cnt<4){
             let addedvector=this.score[this.cnt][count];
             let cn=0;
             for(add of addedvector){
